@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+   position: fixed;
+   width: 100%;
+   background-color: white;
+}
+.navUl{
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+.navIcon{
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    .navIcon{
+        display: block;
+    }
+    .navUl{
+      display: none;
+    }
+  }
